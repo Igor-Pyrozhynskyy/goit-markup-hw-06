@@ -599,11 +599,11 @@ img {
     visibility 500ms var(--time-limit);
 }
 
-.is-hidden {
+/* .is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
+} */
 .close-modal {
   position: absolute;
   top: 8px;
@@ -625,8 +625,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   transform: translate(-50%, -50%) scale(1);
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -643,8 +643,7 @@ img {
   color: var(--first-title-color);
   margin-bottom: 12px;
 }
-.modal-form {
-}
+
 .modal-input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -660,6 +659,12 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+
+}
+.modal-input:hover {
+  border-color: var(--accent-bg-color);
+  cursor: pointer;
+
 }
 .modal-coments {
   height: 120px;
@@ -683,4 +688,14 @@ img {
   color: var(--sekond-title-color);
   cursor: pointer;
   text-align: center;
+  /* margin-left: 164px;
+  margin-right: 164px; */
+  /* position: absolute;
+  transform: translate(-50%,-50%);
+  top: 0;
+  left: 0; */
+}
+
+.privaty-policy{
+  text-decoration: none;
 }

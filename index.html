@@ -38,15 +38,13 @@
           <li class="contacts-list">
             <a class="nav-contacts" href="mailto:info@devstudio.com"
               ><svg class="contacts-icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope"></use></svg
-              >info@devstudio.com
+                <use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com
             </a>
           </li>
           <li class="contacts-list">
             <a class="nav-contacts" href="tel:+380961111111"
               ><svg class="contacts-icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use></svg
-              >+38 096 111 11 11</a
+                <use href="./images/icons.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -314,8 +312,7 @@
                   <li class="social-item">
                     <a href="" class="social-link">
                       <svg class="social-icon" width="20" height="20">
-                        <use href="./images/icons.svg#icon-facebook"></use></svg
-                    ></a>
+                        <use href="./images/icons.svg#icon-facebook"></use></svg></a>
                   </li>
                   <li class="social-item">
                     <a href="" class="social-link">
@@ -456,30 +453,27 @@
           </svg>
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="modal-form">
-          <label for="" class="modal-placeholder">
+        <form class="modal-form" >
+          <label for="user-name" class="modal-placeholder">
             <span>Ім'я</span>
             <input type="text" name="user-name" class="modal-input" required />
+            
           </label>
-          <label for="" class="modal-placeholder">
+          <label for="user-tel" class="modal-placeholder">
             <span>Телефон</span>
             <input type="tel" name="user-tel" class="modal-input" required />
           </label>
-          <label for="" class="modal-placeholder">
+          <label for="user-mail" class="modal-placeholder">
             <span>Пошта</span>
             <input type="mail" name="user-mail" class="modal-input" />
           </label>
-          <label for="" class="modal-placeholder">
-            <span>Коментар</span>
-            <input
-              type="textarea"
-              name="user-coments"
-              class="modal-coments"
-              placeholder="Введіть текст"
-            />
+          <label for="coment" class="modal-placeholder">
+            
+            <textarea name="coment" id="coment" class="modal-coments" placeholder="Коментар"></textarea>
+         
           </label>
           <p class="form-text">
-            Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+            Погоджуюся з розсилкою та приймаю <a href="#" class="privaty-policy">Умови договору</a>
           </p>
           <button type="submit" class="form-btn">Відправити</button>
         </form>

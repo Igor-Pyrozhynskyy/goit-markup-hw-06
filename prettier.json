@@ -1,0 +1,13 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "git.ignoreMissingGitWarning": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "terminal.integrated.localEchoStyle": "dim"
+}
